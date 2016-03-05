@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\Users\Deveopment\AndroidStudioProjects\FrostApp9 3 4 2016\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="G:\Users\Deveopment\AndroidStudioProjects\FrostApp9 3 4 2016\app\build\intermediates\pre-dexed\debug\classes-99e0fd41b69b8dcb8b66b38d71ed87ce7c60d02b.jar" />
+    </item>
+    <item
+        jar="G:\Users\Deveopment\AndroidStudioProjects\FrostApp9 3 4 2016\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="G:\Users\Deveopment\AndroidStudioProjects\FrostApp9 3 4 2016\app\build\intermediates\pre-dexed\debug\classes-ec2ca5f03abcc355489a414b3f3e74106eac01b3.jar" />
+    </item>
+    <item
+        jar="D:\Users\Deveopment\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="G:\Users\Deveopment\AndroidStudioProjects\FrostApp9 3 4 2016\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-a98b81b746acced668884e7931ac3092597a0163.jar" />
+    </item>
+    <item
+        jar="G:\Users\Deveopment\AndroidStudioProjects\FrostApp9 3 4 2016\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="G:\Users\Deveopment\AndroidStudioProjects\FrostApp9 3 4 2016\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-ed02112737a795e09df6040dbba777e99f59f6a2.jar" />
+    </item>
+    <item
+        jar="G:\Users\Deveopment\AndroidStudioProjects\FrostApp9 3 4 2016\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="G:\Users\Deveopment\AndroidStudioProjects\FrostApp9 3 4 2016\app\build\intermediates\pre-dexed\debug\classes-b861d6c4a2e980bf823e960623f01c08a3136afe.jar" />
+    </item>
+
+</items>

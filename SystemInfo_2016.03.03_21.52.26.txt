@@ -1,0 +1,34 @@
+Applications Memory Usage (kB):
+Uptime: 3311052 Realtime: 3311052
+
+** MEMINFO in pid 30543 [com.example.development.frostapp3] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    81568    81480        0        0    20480    14042     6437
+  Dalvik Heap    33529    33460        0        0    36735    32676     4059
+ Dalvik Other      220      220        0        0                           
+        Stack      112      112        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap     1041      100      108        0                           
+    .apk mmap      157        0       12        0                           
+    .ttf mmap       26        0        0        0                           
+    .dex mmap     1824        0     1820        0                           
+    .oat mmap     2087        0      480        0                           
+    .art mmap     2528     1864      228        0                           
+   Other mmap       30        4        4        0                           
+      Unknown       73       72        0        0                           
+        TOTAL   123199   117312     2656        0    57215    46718    10496
+ 
+ Objects
+               Views:       41         ViewRootImpl:        2
+         AppContexts:        4           Activities:        2
+              Assets:        2        AssetManagers:        2
+       Local Binders:        8        Proxy Binders:       16
+       Parcel memory:        2         Parcel count:       10
+    Death Recipients:        0      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
