@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_splash_screen"
+    tools:context="com.example.development.frostapp3.SplashScreen"
+    android:background="@mipmap/ic_launcher">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:measureWithLargestChild="false"
+        android:minHeight="400dp"
+        android:minWidth="250dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="PulSplash Screen"
+                android:id="@+id/textView3"
+                android:layout_column="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:minHeight="60dp"
+                android:measureWithLargestChild="true"
+                android:minWidth="150dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Configure Test"
+                    android:id="@+id/btnConfigTest"
+                    android:textColor="#bc4ae9"
+                    android:shadowColor="#bdb3ca"
+                    android:background="#a6cee9"
+                    android:width="200dp"
+                    android:onClick="btnConfigTestClick"
+                    android:layout_above="@+id/btnDoTest"
+                    android:layout_alignStart="@+id/btnDoTest" />
+            </TableRow>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:minHeight="60dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perform Exercise"
+                    android:id="@+id/btnDoTest"
+                    android:width="200dp"
+                    android:textColor="#bc4ae9"
+                    android:shadowColor="#bdb3ca"
+                    android:background="#a6cee9"
+                    android:onClick="btnPerformTestClick"
+                    android:layout_above="@+id/btnExitHere"
+                    android:layout_centerHorizontal="true" />
+            </TableRow>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="60dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:minHeight="60dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exit"
+                    android:id="@+id/btnExitHere"
+                    android:textColor="#bc4ae9"
+                    android:shadowColor="#bdb3ca"
+                    android:background="#a6cee9"
+                    android:width="200dp"
+                    android:onClick="btnExitClick"
+                    android:layout_above="@+id/btnWhatIsPulsApp"
+                    android:layout_alignStart="@+id/btnDoTest"
+                    android:layout_marginBottom="64dp" />
+            </TableRow>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0">
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What is PulsApp"
+                    android:id="@+id/btnWhatIsPulsApp"
+                    android:shadowColor="#cb97e2"
+                    android:paddingEnd="33dp"
+                    android:paddingStart="33dp"
+                    android:elevation="44dp"
+                    android:elegantTextHeight="false"
+                    android:onClick="btnHelpScreen"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true" />
+            </TableRow>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
